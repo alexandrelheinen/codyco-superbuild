@@ -1,8 +1,6 @@
 CoDyCo Project Superbuild
 ---------------
-| Linux/OS X | 
-|:----------:|
-| [![Build Status](https://travis-ci.org/robotology/codyco-superbuild.png?branch=master)](https://travis-ci.org/robotology/codyco-superbuild) | 
+
 The CoDyCo project is a four-years long project that started in March 2013. At the end of each year a scenario will be used to validate on the iCub the theoretical advances of the project.
 
 More info at http://codyco.eu/
@@ -317,4 +315,7 @@ If you plan on using the `ocra-wbi-plugins` a.k.a `ISIR_MODULES` then you need t
 CODYCO_BUILD_ISIR_MODULES : ON
 CODYCO_USES_EIGEN_320 : OFF
 ```
+
+In this repository, those are the default settings set in the CMakeLists.
+
 This has only been tested in Ubuntu 12.04 but should be expanded to other OS's in the future.
